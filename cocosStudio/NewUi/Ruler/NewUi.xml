@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>TileMapUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>TaskUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>WaitingUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>TaskDetailsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>UserInfoUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SelectCampUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>PackageUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>MainMenuUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroDescUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroHomeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FightUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FightDropUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ErrorDialogUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>DialogUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>CreateTeamUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeadSkillUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeadSkillLearnUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FightResultUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>UserInfoDetailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeadSkillUnLockUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoginUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>DialogRewardsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>NewUi_32</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoginUI_0</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ExploreUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ExploreRefreshTipUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ExploreSelectUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ExploreExchangeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EmailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EmailSenderUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EmailReceiverUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>NewUi_39</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FriendAddUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FriendUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FriendDetailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ChatUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>NpcFunctionUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoginQueueUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LifeSkillsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LifeSkillsChangeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LifeSkillsSetUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SystemSetUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SwitchSetUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>NotescontactUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ServerListUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>TextureShowUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ArenaMainUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ArenaRankUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ArenaShopUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ArenaLogUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ArenaTipsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ArenaHeroUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>CollectionUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>DayTaskUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>GroceryUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HearthstoneUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoginServerListUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>NoticeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>PawnNumSelectUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>PawnShopUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ToolDetailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>WorldMapContentUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>WorldMapUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroTeamUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FightDeployUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>PrestigeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ForgeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroStarUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroInheritUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroStoneUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>MysticShopUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EquipGemUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EnchantUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ForgeLookUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FightStatisticsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoadingTipsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>AchieveUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ChartsUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ProfessionAdvancedUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FightPasueUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ProfessionDetailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ProfessionUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>FriendLineupUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SystemRulerUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>AssistantUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>DialogForGuideUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>RepertoryStoreUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ChangeNameUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>TaskGuideUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>GemSynthesisLookUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>DialogRewardsNewUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EquipEnchantForgeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EquipEnchantUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EquipForgeLookUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EquipForgeUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>EquipRecoveryUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>GemSynthesisUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroInfoDetailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LifeSkillsRewardDetailUI</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>
