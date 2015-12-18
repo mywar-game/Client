@@ -1,0 +1,1 @@
+java -jar logicName_fat.jar

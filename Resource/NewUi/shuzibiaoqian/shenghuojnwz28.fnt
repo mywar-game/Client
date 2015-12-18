@@ -1,0 +1,13 @@
+info face="FZJZJW--GB1-0" size=28 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=33 base=25 scaleW=128 scaleH=128 pages=1 packed=0
+page id=0 file="shenghuojnwz28.png"
+chars count=9
+char id=30719 x=2 y=2 width=36 height=36 xoffset=1 yoffset=-3 xadvance=32 page=0 chnl=0 letter="矿"
+char id=25366 x=40 y=2 width=34 height=36 xoffset=1 yoffset=-4 xadvance=32 page=0 chnl=0 letter="挖"
+char id=38035 x=76 y=2 width=34 height=36 xoffset=1 yoffset=-3 xadvance=32 page=0 chnl=0 letter="钓"
+char id=33457 x=2 y=40 width=35 height=35 xoffset=1 yoffset=-2 xadvance=32 page=0 chnl=0 letter="花"
+char id=22320 x=39 y=40 width=34 height=35 xoffset=1 yoffset=-4 xadvance=32 page=0 chnl=0 letter="地"
+char id=33618 x=75 y=40 width=35 height=34 xoffset=1 yoffset=-2 xadvance=32 page=0 chnl=0 letter="荒"
+char id=40060 x=2 y=77 width=35 height=33 xoffset=1 yoffset=-2 xadvance=32 page=0 chnl=0 letter="鱼"
+char id=22275 x=39 y=77 width=35 height=33 xoffset=1 yoffset=-1 xadvance=32 page=0 chnl=0 letter="圃"
+char id=32 x=76 y=77 width=0 height=0 xoffset=7 yoffset=45 xadvance=11 page=0 chnl=0 letter="space"

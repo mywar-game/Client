@@ -1,0 +1,1 @@
+java -jar ArmatureFrame_fat.jar

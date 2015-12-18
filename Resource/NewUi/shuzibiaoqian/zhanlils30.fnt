@@ -1,0 +1,20 @@
+info face="FZJZJW--GB1-0" size=30 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=35 base=27 scaleW=128 scaleH=128 pages=1 packed=0
+page id=0 file="zhanlils30.png"
+chars count=16
+char id=26007 x=2 y=2 width=33 height=34 xoffset=1 yoffset=1 xadvance=30 page=0 chnl=0 letter="斗"
+char id=25112 x=37 y=2 width=33 height=34 xoffset=1 yoffset=1 xadvance=30 page=0 chnl=0 letter="战"
+char id=21147 x=72 y=2 width=32 height=34 xoffset=2 yoffset=1 xadvance=30 page=0 chnl=0 letter="力"
+char id=48 x=106 y=2 width=20 height=28 xoffset=1 yoffset=3 xadvance=18 page=0 chnl=0 letter="0"
+char id=52 x=2 y=38 width=22 height=27 xoffset=0 yoffset=4 xadvance=18 page=0 chnl=0 letter="4"
+char id=50 x=26 y=38 width=21 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="2"
+char id=55 x=49 y=38 width=21 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="7"
+char id=57 x=72 y=38 width=21 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="9"
+char id=54 x=95 y=38 width=21 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="6"
+char id=51 x=2 y=67 width=20 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="3"
+char id=56 x=24 y=67 width=20 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="8"
+char id=53 x=46 y=67 width=20 height=27 xoffset=1 yoffset=4 xadvance=18 page=0 chnl=0 letter="5"
+char id=49 x=68 y=67 width=16 height=27 xoffset=3 yoffset=4 xadvance=18 page=0 chnl=0 letter="1"
+char id=43 x=86 y=67 width=19 height=20 xoffset=2 yoffset=11 xadvance=18 page=0 chnl=0 letter="+"
+char id=45 x=107 y=67 width=19 height=8 xoffset=0 yoffset=17 xadvance=15 page=0 chnl=0 letter="-"
+char id=32 x=2 y=96 width=0 height=0 xoffset=8 yoffset=47 xadvance=8 page=0 chnl=0 letter="space"

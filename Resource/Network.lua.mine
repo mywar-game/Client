@@ -1,0 +1,104 @@
+require("ConfigManager")
+require("NetEventHandler")
+require("NetResponseHelper")
+require("NetRequestHelper")
+require("NetHttpResponseHelper")
+require("NetHttpRequestHelper")
+require("StaticDataLoader")
+
+local net_req_swift_number = 0  --请求流水号
+local net_req_data = {}         --保存请求参数
+local http_req_data ={}
+local ip
+local port
+local domain
+
+--socket断线重连
+function NetReconnect()
+    NetReconnectRaw()
+end
+
+--socket响应分发
+function NetRecv(code,msg,key) 
+	if code == 1 then-- socket打开
+        NetEventHandler.onSocketOpen()
+	elseif code == 2 then   --有消息
+        NetEventHandler.onMessage(key)
+    elseif code == 3 then  --异常
+        NetEventHandler.onSocketError()
+    elseif code == 4 then  --关闭
+        NetEventHandler.onSocketClose()
+    elseif code == 6 then --socket重连成功
+        NetEventHandler.onSocketReconnectSucc()
+    elseif code == 7 then --socket重连失败
+        NetEventHandler.onSocketReconnectFailed()
+    elseif code == 100 then --心跳
+        cclog("heart beat")
+    end
+end
+
+
+--http响应分发
+function NetHttpRecv(code,tag,msg)
+    NetHttpResponseHelper_get_onRecvMessage(code,tag,msg)
+end
+
+function NetHttpGet(url,tag)
+    NetHttpReqRaw(url,nil,"get",tag or "")
+end
+
+function NetHttpPost(url,data,tag)
+    NetHttpReqRaw(url,data,"post",tag or "")
+end
+----
+local net_req_list={
+    --用户登录
+--  puid	string(50)	合作商用户ID
+--  pid	string(10)	合作商ID
+--  sid	string(10)	服务器ID
+--  ut	int	认证用户类型, 0:未实名认证 1:已实名认证 2:未满18岁
+--  tk	string	登陆token，该token为登陆服务器返回的一个唯一字串，代表用户已经登陆成功，可进入游戏
+	--["User.login"]={uid="wudaa11",pid="2001",sid="s2",ut=0,tk="tk00000012"},--william  
+	--["User.login"]={uid="faust24",pid="2001",sid="s2",ut=0,tk="tk00000012"},--terry         	          	
+	--["User.login"]={uid="wudaa",pid="2001",sid="s2",ut=0,tk="tk00000012"}, --纪念嗑药满级
+	--["User.login"]={uid="wudaa1111",pid="2001",sid="s2",ut=0,tk="tk00000012"},
+	["User.login"]={uid="2",pid="Thread-1-t",sid="q1",ut=0,tk="tk00000012"},
+	--["User.login"]={uid="yh2",pid="2001",sid="s2",ut=0,tk="tk00000012"},
+	--["User.login"]={uid="yh4",pid="2001",sid="s2",ut=0,tk="tk00000012"},
+	--["User.login"]={uid="glenn",pid="2001",sid="s2",ut=0,tk="tk00000012"},---Glenn
+
+}
+
+function NetReqAct(act,data,test)
+	local login = UAction_loginReq:New()	
+    if test then data=http_req_data end --默认测试数据
+	login:setString_token(data.tk)
+	login:setString_userId(data.uid)
+	login:setString_partnerId(data.pid)
+	login:setString_serverId(data.sid)
+    NetReqLua(login,false)
+end
+
+function simulationLogin_callBack(code,tag,data)
+	data = json.decode(data,1)
+	local dt = data.userToken
+	http_req_data = {uid=dt.userId,pid=dt.partnerId,sid=dt.serverId,ut=0,tk=dt.token}
+	NetInitRaw(ip,port,domain,NetRecv) --初始化socket
+end
+
+function NetInit()
+	if Config.debug then
+		local data = net_req_list["User.login"]
+		ip = "192.168.1.187"
+		--ip = "203.195.190.121"
+		port = ConfigManager.getPort()
+		local url = string.format("http://%s:8989",ip)
+		NetHttpReq.simulationLogin(data.uid,data.pid,data.sid,simulationLogin_callBack,url)
+	else
+		domain = ConfigManager.getServerUrl()
+		local port = ConfigManager.getPort()
+		cclog("domain============="..domain)
+		cclog("port============="..port)
+		NetInitRaw(nil,port,domain,NetRecv) --初始化socket
+	end
+end

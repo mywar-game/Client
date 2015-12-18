@@ -1,0 +1,1 @@
+java -jar dataLoader_fat.jar
